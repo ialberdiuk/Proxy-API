@@ -1,0 +1,57 @@
+{
+  "name": "pod-technical-test",
+  "version": "1.0.0",
+  "description": "Technical test to evaluate candidate skills",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha './controllers/*.test.js'",
+    "lint": "eslint -c .eslintrc . --ext .js",
+    "lint-fix": "eslint . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/ialberdiconde/pod-technical-test.git"
+  },
+  "keywords": [
+    "mocha",
+    "chai",
+    "sinon",
+    "node",
+    "expess"
+  ],
+  "author": "ivan alberdi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/ialberdiconde/pod-technical-test/issues"
+  },
+  "homepage": "https://gitlab.com/ialberdiconde/pod-technical-test#readme",
+  "devDependencies": {
+    "@sinonjs/referee-sinon": "^10.1.0",
+    "chai": "^4.2.0",
+    "chunky": "0.0.0",
+    "dotenv": "^10.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
+    "faker": "^5.5.3",
+    "jsverify": "^0.8.4",
+    "knuth-shuffle": "^1.0.8",
+    "mocha": "^6.2.1",
+    "sinon": "^7.5.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.5",
+    "morgan": "^1.10.0",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.19.6"
+  }
+}
