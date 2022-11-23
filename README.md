@@ -1,8 +1,10 @@
 # Example of API that proxies the POD IOT API
 
 This is an express app providing endpoints to proxy an API (POD IOT) and consume all their resources
+
 A user gets logged into the API with basic auth to retreive the x-access-key 
-An account ID should have been already created as well as username and password provided by the Company to get a successful login retriving the token (x-access-key)
+
+An account ID should have been already created as well as username and password provided by the Company to get a successful login retrieving the token (x-access-key)
 
 [API TO PROXY](https://hummingbird-staging.podgroup.com/v3/docs/swagger/index.html)
 
@@ -60,7 +62,7 @@ DB otherwise it will register)
 ```
 
 
-### 5. These features about sign up and sign in (point 4) have been tested to show how to mock a DB with sinon and stub functions
+### 4. These features about sign up and sign in (point 3) have been tested to show how to mock a DB with sinon and stub functions
 
 ## Prerequisites and Steps
 
