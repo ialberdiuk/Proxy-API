@@ -8,7 +8,7 @@ An account ID should have been already created as well as username and password 
 
 [API TO PROXY](https://hummingbird-staging.podgroup.com/v3/docs/swagger/index.html)
 
-Basically, POD is a German/Spanish Compnay which provides SIMs for IOT. One of their best customers is
+Basically, POD is a Germany/Spanish Company which provides SIMs for IOT. One of their best customers is
 
 [Elechtic vehicles Renting](https://www.rideyego.com/)
 
