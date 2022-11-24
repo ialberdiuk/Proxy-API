@@ -23,7 +23,7 @@ It includes the following files and folders:
 - `services` - Contains the different services that the API provide in order to access to the DB 
 - `utils` - Payload utils to match the expected payload to be sent. It will map the values
 
-### 1. In order to consume POD API, a restful POST endpoint api/v1/user has been created
+## 1. In order to consume POD API, a restful POST endpoint api/v1/user has been created
 
 ```
 {
