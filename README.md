@@ -1,4 +1,4 @@
-# Example of API that proxies the POD IOT API
+## Example of API that proxies the POD IOT API
 
 This is an express app providing endpoints to proxy an API (POD IOT) and consume all their resources
 
@@ -36,9 +36,9 @@ It includes the following files and folders:
 }
 ```
 
-### 2. I reuse sendRequest function (https POST) depending on the API to consume creating the necessary payload to be sent attached to the request. DRY principle - Factory Pattern
+## 2. I reuse sendRequest function (https POST) depending on the API to consume creating the necessary payload to be sent attached to the request. DRY principle - Factory Pattern
 
-### 3. You can sign up to register a user in my system (Postgres) and sign in to get the token (JWT). This is entirely an auth mechanism to consume our endpoints. It is not meant to authenticate on the third party API
+## 3. You can sign up to register a user in my system (Postgres) and sign in to get the token (JWT). This is entirely an auth mechanism to consume our endpoints. It is not meant to authenticate on the third party API
 
 **api/v1/signup POST** (Check if user already exists and username and password are not null and String in 
 
