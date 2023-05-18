@@ -36,7 +36,9 @@ It includes the following files and folders:
 }
 ```
 
-#### 2. I reuse sendRequest function (https POST) depending on the API to consume creating the necessary payload to be sent attached to the request. DRY principle - Factory Pattern
+#### 2. Reused sendRequest function (native https). A different/specific payload is created depending on the API to consume 
+
+Use of factory Pattern 
 
 #### 3. You can sign up to register a user in my system (Postgres) and sign in to get the token (JWT). This is entirely an auth mechanism to consume our endpoints. It is not meant to authenticate on the third party API
 
